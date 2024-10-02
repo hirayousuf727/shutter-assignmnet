@@ -1,0 +1,97 @@
+
+.main-wrap {
+overflow: hidden;
+}
+
+img {
+max-width: 100%;
+}
+.main-menu {
+color: white;
+background-color: #000 !important;
+height: 100%;
+text-align: end;
+padding: 15px 30px;
+position: fixed;
+z-index: 1;
+justify-content: flex-end;
+right: 0;
+width: 17%;
+align-items: baseline;
+padding-top: 3%;
+}
+.nav-container {
+flex-direction: column;
+}
+.nav-container .navbar-nav {
+flex-direction: column;
+}
+.main-menu a.navbar-brand {
+margin-right: 0;
+margin-bottom: 15px !important;
+display: block;
+}
+.menu ul {
+list-style: none;
+margin: 0;
+}
+.menu ul li {
+margin: 5px 0;
+}
+.menu ul li a {
+color: #fff !important;
+text-decoration: none;
+}
+.menu ul li a.active,
+.menu ul li a:hover {
+color: red !important;
+}
+
+.gallery {
+background-color: #000;
+}
+.g-item {
+position: relative;
+overflow: hidden;
+margin-bottom: 15px;
+}
+.g-item img {
+width: 100%;
+height: 300px;
+object-fit: cover;
+object-position: center;
+}
+.g-item-bg {
+background-color: rgba(0, 0, 0, 0.5);
+position: absolute;
+left: 0;
+top: 0;
+right: 0;
+bottom: 0;
+z-index: 1;
+color: #fff;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+text-transform: uppercase;
+transform: translateY(100%);
+
+transition: 0.3s all ease-in-out;
+}
+.g-item:hover .g-item-bg {
+transform: translateY(0);
+}
+.nav-link:hover {
+color: red;
+}
+.nav-link:active {
+text-decoration: none;
+color: red;
+}
+.hy{
+    text-align: center;
+    color: red;
+    text-decoration: underline;
+    text-transform: capitalize;
+}
